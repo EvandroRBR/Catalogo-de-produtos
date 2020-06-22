@@ -1,0 +1,164 @@
+.choice::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+.choice::-webkit-scrollbar-track {
+  background-color: none;    /* color of the tracking area */
+}
+.choice::-webkit-scrollbar-thumb {
+  background-color: none;   /* color of the scroll thumb */
+}
+
+.icon {
+  width: 90px;
+  height: 70px;
+}
+
+.trash {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  margin-top: 20px;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.upHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.back {
+  height: 50px;
+  cursor: pointer;
+  margin-right: 200px;
+}
+
+.searchName{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+
+  width: 80%;
+  height: 30%;
+
+  background: white;
+
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.26);
+}
+
+.searchName input {
+  font-weight: bold;
+  width: 80%;
+  height: 60px;
+  color: #313e5b;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+  background: linear-gradient(to bottom right, #29c7ac, #2b8877);
+  margin-top: 8px;
+  cursor: text;
+  transition: .6s;
+  outline: none;
+}
+
+.searchName input:focus{
+  color: #333;
+  width: 90%;
+  background: white;
+  border-bottom: 2px;
+}
+
+.searchName input:hover{
+  color: #333;
+  width: 90%;
+  background: white;
+  border-bottom: 2px;
+}
+
+::-webkit-input-placeholder{
+  color: #fff;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+  height: 40vh;
+  width: 100%;
+}
+
+.products {
+  margin: 20px;
+  padding: 10px 10px 10px 25px;
+
+  width: 65%;
+  height: max-content;
+  border-radius: 8px;
+
+  background: linear-gradient(to top right, #93f1e3, #29c7ac);
+  overflow: hidden;
+}
+
+.searchCategory {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 70%;
+}
+
+.choice {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+  width: 90%;
+  
+  margin-left: 20px;
+
+  overflow-y: scroll;
+}
+
+button {
+  margin-top: 10px;
+
+  width: 180px;
+  height: 75px;
+
+  color: white;
+  
+  font-size: 13pt;
+  font-weight: 700;
+
+  outline: none;
+}
+
+button:hover{
+  color: #313e5b;
+  background: linear-gradient(to top left, #b1fff2, white);
+  border-bottom: 2px;
+}

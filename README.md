@@ -4,7 +4,7 @@ Nesse projeto foi desenvolvido um sistema para criar um catálogo de produtos on
 
 ## Técnologias Utilizadas
 ![react-plus-nodejs-small png_04e540dd4f](https://user-images.githubusercontent.com/55189046/83953191-97558d00-a814-11ea-8fc2-14bf793553ae.png)
-...............................![hiclipart com](https://user-images.githubusercontent.com/56441371/85285208-dd426000-b466-11ea-8a6c-94dac21c8052.png) ![postgres](https://user-images.githubusercontent.com/56441371/85285877-0adbd900-b468-11ea-96ec-6082a20978c9.png)...............................
+...........................![hiclipart com](https://user-images.githubusercontent.com/56441371/85285208-dd426000-b466-11ea-8a6c-94dac21c8052.png) ![postgres](https://user-images.githubusercontent.com/56441371/85285877-0adbd900-b468-11ea-96ec-6082a20978c9.png)...........................
 
 
 
